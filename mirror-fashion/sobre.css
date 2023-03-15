@@ -6,7 +6,7 @@ body {
     width: 940px;
 }
 h1 {
-    background-image: url('../mirror-fashion/images/sobre-background.jpg');
+    background-image: url('images/sobre-background.jpg');
     padding: 10px;
     }
 h2 {
@@ -17,7 +17,7 @@ figure{
     background-color: #F2EDED;
     border: 1px solid #ccc;
     text-align: center;
-    padding: 15%;
+    padding: 15px;
     margin: 30px;
 }
 figcaption{
