@@ -6,6 +6,7 @@ body{
     background: url(../images/sacola.png) no-repeat top right;
     font-size: 14px;
     padding-right: 35px;
+    padding-top: 8px;
     text-align: right;
     width: 140px
 }
@@ -14,4 +15,11 @@ body{
 }
 .menu-opcoes a{
     color: #003366;
+}
+.menu-opcoes ul li {
+    display: inline;
+}
+.container {
+    margin: 0 auto;
+    width: 940px ;
 }
