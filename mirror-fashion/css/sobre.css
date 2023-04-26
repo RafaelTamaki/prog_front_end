@@ -6,7 +6,7 @@ body {
     width: 940px;
 }
 h1 {
-    background-image: url('images/sobre-background.jpg');
+    background-image: url(../images/sobre-background.jpg);
     padding: 10px;
     }
 h2 {
