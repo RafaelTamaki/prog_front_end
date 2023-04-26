@@ -28,6 +28,7 @@ figcaption{
 p{
     padding: 0 45px;
     text-indent: 15px;
+    
 }
 
 #historia {
@@ -56,4 +57,11 @@ p{
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
+}
+p:first-letter{
+    text-indent: 0;
+    font-weight: bold;
+}
+p:first-line{
+    font-variant: small-caps;
 }
