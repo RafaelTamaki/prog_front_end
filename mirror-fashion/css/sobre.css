@@ -1,14 +1,18 @@
-body {
+/*body {
     color: #333333;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
+}*/
+body {
+    margin: 0;
 }
-h1 {
+.titulo{
     background-image: url(../images/sobre-background.jpg);
     padding: 10px;
-    }
+    font-style: 25px;
+}
 h2 {
     border-bottom: 2px groove #333333;
     margin-top: 30px;
@@ -31,14 +35,6 @@ p{
     
 }
 
-#historia {
-    color: groove #333333;
-    
-}
-#diferenciais {
-    color: groove #333333;
-    
-}
 #familiapelho{
     float: right;
     margin: 0 0 10px 10px;
@@ -64,4 +60,7 @@ p:first-letter{
 }
 p:first-line{
     font-variant: small-caps;
+}
+h1 + p{
+    text-indent: 0;
 }
