@@ -115,7 +115,7 @@ header {
     background: linear-gradient(#dcdcf5, #f4bebe);
 }
 
-.painel li{
+.painel li {
     display: inline-block;
     vertical-align: top;
     width: 140px;
@@ -128,8 +128,8 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 2px rgba(0,0,0,0.5);    
-    
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 .painel a {
@@ -146,6 +146,7 @@ header {
     width: 140px;
     margin: 2px;
     padding-bottom: 10px;
+    transition: 0.7s ease-out;
 }
 
 figcaption {
@@ -192,25 +193,42 @@ footer .container {
     margin-left: 25px;
 }
 
-.menu-opcoes a:hover{
+.menu-opcoes a:hover {
     color: #077dc6;
 }
-.menu-departamentos a:active{
+
+.menu-departamentos a:active {
     color: red;
 }
-.menu-departamentos li ul{
+
+.menu-departamentos li ul {
     display: none;
 }
-.menu-departamentos li:hover ul{
+
+.menu-departamentos li:hover ul {
     display: block;
 }
-.menu-departamentos ul ul li{
+
+.menu-departamentos ul ul li {
     background-color: #dcdcdc;
 }
-.menu-departamentos li li a:before{
+
+.menu-departamentos li li a:before {
     content: '- ';
 }
-.painel{
+
+.painel {
     border-radius: 4px;
     box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s ease-in;
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+    transform: scale(1.2) rotate(5deg);
 }
