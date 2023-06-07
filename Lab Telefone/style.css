@@ -8,14 +8,14 @@ body {
     align-items: center;
     flex-direction: column;
 
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
     min-height: 100vh;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
-    color: beige;
+    color: darkblue;
 }
 
 input {
@@ -31,14 +31,14 @@ input {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 
-    background-color: lightgray;
+    background-color: darkblue;
     border-radius: 30px;
 
     padding: 10px;
 }
 
 input[type=tel] {
-    background-color: antiquewhite;
+    background-color: lightblue;
     border-radius: 10px;
     font-family: monospace;
     font-size: 22px;
@@ -59,6 +59,7 @@ input[type=button] {
 }
 
 input[type=button]:hover {
-    font-weight: bold;
+    font-weight: bolder;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    background-color: lightblue;
 }
